@@ -1,0 +1,47 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0px"
+    android:keyHeight="60dp"
+    android:keyWidth="10%p"
+    android:verticalGap="0px">
+    <Row>
+        <Key
+            android:codes="-11"
+            android:keyEdgeFlags="left"
+            android:keyLabel="(´▽｀)"
+            android:keyWidth="20%p"/>
+        <Key
+            android:codes="-12"
+            android:keyLabel="(￣ー￣)"
+            android:keyWidth="20%p"/>
+        <Key
+            android:codes="-13"
+            android:keyLabel="(⌒∩⌒)"
+            android:keyWidth="20%p"/>
+        <Key
+            android:codes="-14"
+            android:keyLabel="(　^ω^)"
+            android:keyWidth="20%p"/>
+        <Key
+            android:codes="-15"
+            android:keyEdgeFlags="right"
+            android:keyLabel="(*≧∇≦*)"
+            android:keyWidth="20%p"/>
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key
+            android:codes="32"
+            android:isRepeatable="true"
+            android:keyLabel="SPACE"
+            android:keyWidth="60%p"/>
+        <Key
+            android:codes="-5"
+            android:isRepeatable="true"
+            android:keyLabel="DEL"
+            android:keyWidth="20%p"/>
+        <Key
+            android:codes="-4"
+            android:keyEdgeFlags="right"
+            android:keyLabel="DONE"
+            android:keyWidth="20%p"/>
+    </Row>
+</Keyboard>
